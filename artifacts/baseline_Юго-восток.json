@@ -1,0 +1,1077 @@
+{
+ "region": "Юго-восток",
+ "algo": "baseline",
+ "used_engineers": 15,
+ "total_km": 406.78,
+ "assigned": 63,
+ "total_jobs": 83,
+ "unassigned": [
+  {
+   "job_id": "75745",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 2, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "79144",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 8, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "79450",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 8, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "58129",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 8, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "93798",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 8, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "40698",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 8, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "89067",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 1, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "24482",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 1, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "46199",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 2, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "63577",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 2, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "11872",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 1, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "11899",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 8, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "63894",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 8, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "40919",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 1, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "12329",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 1, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "95692",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 8, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "13583",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 2, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "20055",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 8, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "1287",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 1, но заявка не помещается в их маршруты по времени"
+  },
+  {
+   "job_id": "31495",
+   "code": "NO_TIME_SLOT",
+   "reason": "не помещается в маршрут по времени",
+   "detail": "подходящих бригад 1, но заявка не помещается в их маршруты по времени"
+  }
+ ],
+ "late_jobs": 0,
+ "travel_min": 1594,
+ "routes": [
+  {
+   "engineer_id": "BR-ЮГО-01",
+   "depart": 1079,
+   "km": 39.1,
+   "span_min": 267,
+   "stops": [
+    {
+     "job_id": "84466",
+     "seq": 1,
+     "arrive": 1098,
+     "start": 1098,
+     "end": 1178,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 9.949,
+     "leg_min": 19,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "2427",
+     "seq": 2,
+     "arrive": 1200,
+     "start": 1200,
+     "end": 1230,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 11.009,
+     "leg_min": 22,
+     "skill": "connect",
+     "priority": 3
+    },
+    {
+     "job_id": "33880",
+     "seq": 3,
+     "arrive": 1250,
+     "start": 1250,
+     "end": 1290,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 9.413,
+     "leg_min": 20,
+     "skill": "local",
+     "priority": 3
+    },
+    {
+     "job_id": "37590",
+     "seq": 4,
+     "arrive": 1306,
+     "start": 1306,
+     "end": 1346,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 8.73,
+     "leg_min": 16,
+     "skill": "local",
+     "priority": 3
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-02",
+   "depart": 937,
+   "km": 27.0,
+   "span_min": 303,
+   "stops": [
+    {
+     "job_id": "14416",
+     "seq": 1,
+     "arrive": 974,
+     "start": 974,
+     "end": 1004,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 8.673,
+     "leg_min": 37,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "68359",
+     "seq": 2,
+     "arrive": 1025,
+     "start": 1025,
+     "end": 1105,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 3.876,
+     "leg_min": 21,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "51603",
+     "seq": 3,
+     "arrive": 1134,
+     "start": 1134,
+     "end": 1164,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 6.197,
+     "leg_min": 29,
+     "skill": "connect",
+     "priority": 3
+    },
+    {
+     "job_id": "7610",
+     "seq": 4,
+     "arrive": 1200,
+     "start": 1200,
+     "end": 1240,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 8.252,
+     "leg_min": 36,
+     "skill": "local",
+     "priority": 3
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-03",
+   "depart": 694,
+   "km": 19.19,
+   "span_min": 536,
+   "stops": [
+    {
+     "job_id": "52041",
+     "seq": 1,
+     "arrive": 775,
+     "start": 775,
+     "end": 855,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 6.059,
+     "leg_min": 81,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "60484",
+     "seq": 2,
+     "arrive": 928,
+     "start": 928,
+     "end": 1008,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 5.479,
+     "leg_min": 73,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "68946",
+     "seq": 3,
+     "arrive": 1080,
+     "start": 1080,
+     "end": 1160,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 5.371,
+     "leg_min": 72,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "4724",
+     "seq": 4,
+     "arrive": 1190,
+     "start": 1190,
+     "end": 1230,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 2.283,
+     "leg_min": 30,
+     "skill": "local",
+     "priority": 3
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-04",
+   "depart": 699,
+   "km": 8.56,
+   "span_min": 341,
+   "stops": [
+    {
+     "job_id": "23807",
+     "seq": 1,
+     "arrive": 720,
+     "start": 720,
+     "end": 800,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 3.809,
+     "leg_min": 21,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "63591",
+     "seq": 2,
+     "arrive": 815,
+     "start": 840,
+     "end": 920,
+     "wait": 25,
+     "late": 0,
+     "leg_km": 2.095,
+     "leg_min": 15,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "76173",
+     "seq": 3,
+     "arrive": 937,
+     "start": 960,
+     "end": 1040,
+     "wait": 23,
+     "late": 0,
+     "leg_km": 2.652,
+     "leg_min": 17,
+     "skill": "connect",
+     "priority": 2
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-05",
+   "depart": 1097,
+   "km": 13.92,
+   "span_min": 143,
+   "stops": [
+    {
+     "job_id": "33507",
+     "seq": 1,
+     "arrive": 1115,
+     "start": 1115,
+     "end": 1155,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 2.96,
+     "leg_min": 18,
+     "skill": "local",
+     "priority": 3
+    },
+    {
+     "job_id": "36961",
+     "seq": 2,
+     "arrive": 1200,
+     "start": 1200,
+     "end": 1240,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 10.964,
+     "leg_min": 45,
+     "skill": "local",
+     "priority": 3
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-06",
+   "depart": 647,
+   "km": 20.4,
+   "span_min": 473,
+   "stops": [
+    {
+     "job_id": "58066",
+     "seq": 1,
+     "arrive": 788,
+     "start": 788,
+     "end": 868,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 10.559,
+     "leg_min": 141,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "2245",
+     "seq": 2,
+     "arrive": 875,
+     "start": 875,
+     "end": 955,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 0.5,
+     "leg_min": 7,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "54422",
+     "seq": 3,
+     "arrive": 1080,
+     "start": 1080,
+     "end": 1120,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 9.34,
+     "leg_min": 125,
+     "skill": "local",
+     "priority": 3
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-07",
+   "depart": 693,
+   "km": 35.14,
+   "span_min": 427,
+   "stops": [
+    {
+     "job_id": "2915",
+     "seq": 1,
+     "arrive": 728,
+     "start": 728,
+     "end": 808,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 8.062,
+     "leg_min": 35,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "3566",
+     "seq": 2,
+     "arrive": 816,
+     "start": 816,
+     "end": 896,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 0.0,
+     "leg_min": 8,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "72476",
+     "seq": 3,
+     "arrive": 943,
+     "start": 943,
+     "end": 973,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 11.713,
+     "leg_min": 47,
+     "skill": "connect",
+     "priority": 3
+    },
+    {
+     "job_id": "75282",
+     "seq": 4,
+     "arrive": 991,
+     "start": 991,
+     "end": 1031,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 3.117,
+     "leg_min": 18,
+     "skill": "local",
+     "priority": 3
+    },
+    {
+     "job_id": "60886",
+     "seq": 5,
+     "arrive": 1080,
+     "start": 1080,
+     "end": 1120,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 12.245,
+     "leg_min": 49,
+     "skill": "local",
+     "priority": 3
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-08",
+   "depart": 604,
+   "km": 24.97,
+   "span_min": 435,
+   "stops": [
+    {
+     "job_id": "65717",
+     "seq": 1,
+     "arrive": 624,
+     "start": 624,
+     "end": 704,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 4.306,
+     "leg_min": 20,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "44117",
+     "seq": 2,
+     "arrive": 719,
+     "start": 719,
+     "end": 799,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 3.151,
+     "leg_min": 15,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "78920",
+     "seq": 3,
+     "arrive": 840,
+     "start": 840,
+     "end": 920,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 8.872,
+     "leg_min": 41,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "32066",
+     "seq": 4,
+     "arrive": 946,
+     "start": 946,
+     "end": 986,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 5.737,
+     "leg_min": 26,
+     "skill": "local",
+     "priority": 3
+    },
+    {
+     "job_id": "64168",
+     "seq": 5,
+     "arrive": 999,
+     "start": 999,
+     "end": 1039,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 2.901,
+     "leg_min": 13,
+     "skill": "local",
+     "priority": 3
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-09",
+   "depart": 614,
+   "km": 23.4,
+   "span_min": 292,
+   "stops": [
+    {
+     "job_id": "876",
+     "seq": 1,
+     "arrive": 635,
+     "start": 635,
+     "end": 665,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 3.809,
+     "leg_min": 21,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "14494",
+     "seq": 2,
+     "arrive": 720,
+     "start": 720,
+     "end": 800,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 14.242,
+     "leg_min": 55,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "60141",
+     "seq": 3,
+     "arrive": 826,
+     "start": 826,
+     "end": 906,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 5.346,
+     "leg_min": 26,
+     "skill": "connect",
+     "priority": 2
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-10",
+   "depart": 727,
+   "km": 16.86,
+   "span_min": 153,
+   "stops": [
+    {
+     "job_id": "88209",
+     "seq": 1,
+     "arrive": 760,
+     "start": 760,
+     "end": 800,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 7.4,
+     "leg_min": 33,
+     "skill": "local",
+     "priority": 3
+    },
+    {
+     "job_id": "19216",
+     "seq": 2,
+     "arrive": 840,
+     "start": 840,
+     "end": 880,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 9.459,
+     "leg_min": 40,
+     "skill": "local",
+     "priority": 3
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-11",
+   "depart": 1043,
+   "km": 17.39,
+   "span_min": 247,
+   "stops": [
+    {
+     "job_id": "67472",
+     "seq": 1,
+     "arrive": 1046,
+     "start": 1046,
+     "end": 1076,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 1.448,
+     "leg_min": 3,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "90989",
+     "seq": 2,
+     "arrive": 1080,
+     "start": 1080,
+     "end": 1120,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 2.006,
+     "leg_min": 4,
+     "skill": "local",
+     "priority": 3
+    },
+    {
+     "job_id": "7660",
+     "seq": 3,
+     "arrive": 1123,
+     "start": 1123,
+     "end": 1163,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 0.788,
+     "leg_min": 3,
+     "skill": "local",
+     "priority": 3
+    },
+    {
+     "job_id": "7258",
+     "seq": 4,
+     "arrive": 1187,
+     "start": 1200,
+     "end": 1290,
+     "wait": 13,
+     "late": 0,
+     "leg_km": 13.146,
+     "leg_min": 24,
+     "skill": "emergency",
+     "priority": 1
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-12",
+   "depart": 695,
+   "km": 12.12,
+   "span_min": 345,
+   "stops": [
+    {
+     "job_id": "66944",
+     "seq": 1,
+     "arrive": 699,
+     "start": 699,
+     "end": 779,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 1.901,
+     "leg_min": 4,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "55454",
+     "seq": 2,
+     "arrive": 782,
+     "start": 782,
+     "end": 862,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 1.059,
+     "leg_min": 3,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "35057",
+     "seq": 3,
+     "arrive": 864,
+     "start": 864,
+     "end": 944,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 0.6,
+     "leg_min": 2,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "89696",
+     "seq": 4,
+     "arrive": 960,
+     "start": 960,
+     "end": 1040,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 8.557,
+     "leg_min": 16,
+     "skill": "connect",
+     "priority": 2
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-13",
+   "depart": 912,
+   "km": 33.01,
+   "span_min": 483,
+   "stops": [
+    {
+     "job_id": "53552",
+     "seq": 1,
+     "arrive": 921,
+     "start": 921,
+     "end": 951,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 4.731,
+     "leg_min": 9,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "20362",
+     "seq": 2,
+     "arrive": 960,
+     "start": 960,
+     "end": 1040,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 5.296,
+     "leg_min": 9,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "13404",
+     "seq": 3,
+     "arrive": 1043,
+     "start": 1200,
+     "end": 1230,
+     "wait": 157,
+     "late": 0,
+     "leg_km": 0.985,
+     "leg_min": 3,
+     "skill": "connect",
+     "priority": 3
+    },
+    {
+     "job_id": "65268",
+     "seq": 4,
+     "arrive": 1261,
+     "start": 1261,
+     "end": 1301,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 20.451,
+     "leg_min": 31,
+     "skill": "local",
+     "priority": 3
+    },
+    {
+     "job_id": "81698",
+     "seq": 5,
+     "arrive": 1305,
+     "start": 1305,
+     "end": 1395,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 1.542,
+     "leg_min": 4,
+     "skill": "emergency",
+     "priority": 1
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-14",
+   "depart": 707,
+   "km": 24.11,
+   "span_min": 634,
+   "stops": [
+    {
+     "job_id": "62011",
+     "seq": 1,
+     "arrive": 720,
+     "start": 720,
+     "end": 800,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 8.65,
+     "leg_min": 13,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "57353",
+     "seq": 2,
+     "arrive": 802,
+     "start": 802,
+     "end": 832,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 1.037,
+     "leg_min": 2,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "23094",
+     "seq": 3,
+     "arrive": 835,
+     "start": 835,
+     "end": 915,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 1.249,
+     "leg_min": 3,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "45778",
+     "seq": 4,
+     "arrive": 925,
+     "start": 925,
+     "end": 965,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 5.518,
+     "leg_min": 10,
+     "skill": "local",
+     "priority": 3
+    },
+    {
+     "job_id": "78673",
+     "seq": 5,
+     "arrive": 975,
+     "start": 975,
+     "end": 1065,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 5.739,
+     "leg_min": 10,
+     "skill": "emergency",
+     "priority": 1
+    },
+    {
+     "job_id": "98998",
+     "seq": 6,
+     "arrive": 1066,
+     "start": 1066,
+     "end": 1156,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 0.454,
+     "leg_min": 1,
+     "skill": "emergency",
+     "priority": 1
+    },
+    {
+     "job_id": "32589",
+     "seq": 7,
+     "arrive": 1159,
+     "start": 1159,
+     "end": 1249,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 0.733,
+     "leg_min": 3,
+     "skill": "emergency",
+     "priority": 1
+    },
+    {
+     "job_id": "51774",
+     "seq": 8,
+     "arrive": 1251,
+     "start": 1251,
+     "end": 1341,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 0.733,
+     "leg_min": 2,
+     "skill": "emergency",
+     "priority": 1
+    }
+   ]
+  },
+  {
+   "engineer_id": "BR-ЮГО-15",
+   "depart": 593,
+   "km": 91.61,
+   "span_min": 663,
+   "stops": [
+    {
+     "job_id": "78876",
+     "seq": 1,
+     "arrive": 608,
+     "start": 608,
+     "end": 688,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 9.065,
+     "leg_min": 15,
+     "skill": "connect",
+     "priority": 2
+    },
+    {
+     "job_id": "40111",
+     "seq": 2,
+     "arrive": 720,
+     "start": 720,
+     "end": 760,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 20.894,
+     "leg_min": 32,
+     "skill": "local",
+     "priority": 3
+    },
+    {
+     "job_id": "3151",
+     "seq": 3,
+     "arrive": 787,
+     "start": 787,
+     "end": 827,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 16.775,
+     "leg_min": 27,
+     "skill": "local",
+     "priority": 3
+    },
+    {
+     "job_id": "90915",
+     "seq": 4,
+     "arrive": 838,
+     "start": 838,
+     "end": 928,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 5.564,
+     "leg_min": 11,
+     "skill": "emergency",
+     "priority": 1
+    },
+    {
+     "job_id": "45243",
+     "seq": 5,
+     "arrive": 929,
+     "start": 929,
+     "end": 1019,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 0.0,
+     "leg_min": 1,
+     "skill": "emergency",
+     "priority": 1
+    },
+    {
+     "job_id": "97168",
+     "seq": 6,
+     "arrive": 1047,
+     "start": 1047,
+     "end": 1137,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 19.61,
+     "leg_min": 28,
+     "skill": "emergency",
+     "priority": 1
+    },
+    {
+     "job_id": "65034",
+     "seq": 7,
+     "arrive": 1166,
+     "start": 1166,
+     "end": 1256,
+     "wait": 0,
+     "late": 0,
+     "leg_km": 19.702,
+     "leg_min": 29,
+     "skill": "emergency",
+     "priority": 1
+    }
+   ]
+  }
+ ],
+ "compute": {
+  "cpu_seconds": null,
+  "wall_seconds": null
+ }
+}

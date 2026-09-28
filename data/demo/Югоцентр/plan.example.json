@@ -1,0 +1,1283 @@
+{
+  "region": "Югоцентр",
+  "algo": "solver",
+  "used_engineers": 8,
+  "total_km": 179.77,
+  "assigned": 56,
+  "total_jobs": 56,
+  "late_jobs": 0,
+  "travel_min": 950,
+  "routes": [
+    {
+      "engineer_id": "BR-ЮГО-01",
+      "engineer_name": "Бригада Ефимов",
+      "transport": "Автомобиль",
+      "depart": "10:29",
+      "km": 33.43,
+      "jobs": 10,
+      "travel_min": 84,
+      "stops": [
+        {
+          "job_id": "12263",
+          "seq": 1,
+          "address": "Город Москва, проезд.Коломенский, д. 27 к 3",
+          "window": "10:00-12:00",
+          "arrive": "10:38",
+          "start": "10:38",
+          "end": "11:18",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 3.555,
+          "travel_min": 9
+        },
+        {
+          "job_id": "94447",
+          "seq": 2,
+          "address": "Город Москва, ул.Затонная, д. 11 к 3",
+          "window": "10:00-12:00",
+          "arrive": "11:26",
+          "start": "11:26",
+          "end": "11:56",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 3.644,
+          "travel_min": 8
+        },
+        {
+          "job_id": "23142",
+          "seq": 3,
+          "address": "Город Москва, ул.Судостроительная, д. 31 к 3",
+          "window": "10:00-12:00",
+          "arrive": "12:00",
+          "start": "12:00",
+          "end": "13:20",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.327,
+          "travel_min": 4
+        },
+        {
+          "job_id": "90373",
+          "seq": 4,
+          "address": "Город Москва, ул.Коломенская, д. 5",
+          "window": "12:00-14:00",
+          "arrive": "13:28",
+          "start": "13:28",
+          "end": "14:48",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 2.476,
+          "travel_min": 8
+        },
+        {
+          "job_id": "90709",
+          "seq": 5,
+          "address": "Город Москва, ул.Коломенская, д. 21",
+          "window": "16:00-18:00",
+          "arrive": "14:53",
+          "start": "16:00",
+          "end": "16:40",
+          "wait_min": 67,
+          "late_min": 0,
+          "km": 1.181,
+          "travel_min": 5
+        },
+        {
+          "job_id": "86864",
+          "seq": 6,
+          "address": "Город Москва, б-р.Чонгарский, д. 1 к 4",
+          "window": "16:00-18:00",
+          "arrive": "17:00",
+          "start": "17:00",
+          "end": "17:40",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 9.204,
+          "travel_min": 20
+        },
+        {
+          "job_id": "35265",
+          "seq": 7,
+          "address": "Город Москва, ул.Профсоюзная, д. 8 к 2",
+          "window": "16:00-18:00",
+          "arrive": "17:55",
+          "start": "17:55",
+          "end": "18:35",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 7.047,
+          "travel_min": 15
+        },
+        {
+          "job_id": "77795",
+          "seq": 8,
+          "address": "Город Москва, ул.Винокурова, д. 5/6 к 2",
+          "window": "18:00-20:00",
+          "arrive": "18:42",
+          "start": "18:42",
+          "end": "19:22",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 2.415,
+          "travel_min": 7
+        },
+        {
+          "job_id": "23637",
+          "seq": 9,
+          "address": "Город Москва, ул.Шверника, д. 18 к 2",
+          "window": "20:00-22:00",
+          "arrive": "19:25",
+          "start": "20:00",
+          "end": "21:20",
+          "wait_min": 35,
+          "late_min": 0,
+          "km": 0.819,
+          "travel_min": 3
+        },
+        {
+          "job_id": "78036",
+          "seq": 10,
+          "address": "Город Москва, пр-кт.60-летия Октября, д. 17",
+          "window": "20:00-22:00",
+          "arrive": "21:25",
+          "start": "21:25",
+          "end": "21:55",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.762,
+          "travel_min": 5
+        }
+      ]
+    },
+    {
+      "engineer_id": "BR-ЮГО-02",
+      "engineer_name": "Бригада Ковалёв",
+      "transport": "Автомобиль",
+      "depart": "09:55",
+      "km": 35.63,
+      "jobs": 11,
+      "travel_min": 83,
+      "stops": [
+        {
+          "job_id": "5406",
+          "seq": 1,
+          "address": "Город Москва, ул.Ремизова, д. 15 к 2",
+          "window": "10:00-12:00",
+          "arrive": "10:00",
+          "start": "10:00",
+          "end": "10:40",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.895,
+          "travel_min": 5
+        },
+        {
+          "job_id": "46513",
+          "seq": 2,
+          "address": "Город Москва, ул.Шверника, д. 14/1 к 2",
+          "window": "10:00-12:00",
+          "arrive": "10:48",
+          "start": "10:48",
+          "end": "11:28",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 2.415,
+          "travel_min": 8
+        },
+        {
+          "job_id": "94431",
+          "seq": 3,
+          "address": "Город Москва, ул.Шверника, д. 12/2 к 3",
+          "window": "10:00-12:00",
+          "arrive": "11:30",
+          "start": "11:30",
+          "end": "12:50",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 0.456,
+          "travel_min": 2
+        },
+        {
+          "job_id": "51133",
+          "seq": 4,
+          "address": "Город Москва, ул.Трофимова, д. 4А",
+          "window": "12:00-14:00",
+          "arrive": "13:03",
+          "start": "13:03",
+          "end": "13:43",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 6.726,
+          "travel_min": 13
+        },
+        {
+          "job_id": "26845",
+          "seq": 5,
+          "address": "Город Москва, проезд.3-й Павелецкий, д. 7 к 2",
+          "window": "12:00-14:00",
+          "arrive": "14:00",
+          "start": "14:00",
+          "end": "14:40",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 6.974,
+          "travel_min": 17
+        },
+        {
+          "job_id": "87819",
+          "seq": 6,
+          "address": "Город Москва, ул.Люсиновская, д. 4",
+          "window": "14:00-16:00",
+          "arrive": "14:51",
+          "start": "14:51",
+          "end": "15:31",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 4.287,
+          "travel_min": 11
+        },
+        {
+          "job_id": "86002",
+          "seq": 7,
+          "address": "Город Москва, ул.Городская, д. 9",
+          "window": "14:00-16:00",
+          "arrive": "15:37",
+          "start": "15:37",
+          "end": "16:17",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 2.031,
+          "travel_min": 6
+        },
+        {
+          "job_id": "93276",
+          "seq": 8,
+          "address": "Город Москва, ул.2-я Рощинская, д. 11",
+          "window": "16:00-18:00",
+          "arrive": "16:22",
+          "start": "16:22",
+          "end": "17:02",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 2.32,
+          "travel_min": 5
+        },
+        {
+          "job_id": "61311",
+          "seq": 9,
+          "address": "Город Москва, пер.Ослябинский, д. 3",
+          "window": "16:00-18:00",
+          "arrive": "17:11",
+          "start": "17:11",
+          "end": "17:51",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 5.498,
+          "travel_min": 9
+        },
+        {
+          "job_id": "78540",
+          "seq": 10,
+          "address": "Город Москва, ул.Восточная, д. 2 к 2",
+          "window": "18:00-20:00",
+          "arrive": "17:54",
+          "start": "18:00",
+          "end": "19:20",
+          "wait_min": 6,
+          "late_min": 0,
+          "km": 1.271,
+          "travel_min": 3
+        },
+        {
+          "job_id": "94575",
+          "seq": 11,
+          "address": "Город Москва, ул.Автозаводская, д. 11",
+          "window": "18:00-20:00",
+          "arrive": "19:24",
+          "start": "19:24",
+          "end": "20:44",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.759,
+          "travel_min": 4
+        }
+      ]
+    },
+    {
+      "engineer_id": "BR-ЮГО-03",
+      "engineer_name": "Бригада Панкратов",
+      "transport": "Пешеход",
+      "depart": "11:40",
+      "km": 9.18,
+      "jobs": 5,
+      "travel_min": 123,
+      "stops": [
+        {
+          "job_id": "76452",
+          "seq": 1,
+          "address": "Город Москва, ул.Каховка, д. 7 к 1",
+          "window": "12:00-14:00",
+          "arrive": "12:17",
+          "start": "12:17",
+          "end": "13:37",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 2.797,
+          "travel_min": 37
+        },
+        {
+          "job_id": "93544",
+          "seq": 2,
+          "address": "Город Москва, б-р.Черноморский, д. 19 к 2",
+          "window": "12:00-14:00",
+          "arrive": "14:00",
+          "start": "14:00",
+          "end": "15:20",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.693,
+          "travel_min": 23
+        },
+        {
+          "job_id": "99841",
+          "seq": 3,
+          "address": "Город Москва, б-р.Симферопольский, д. 27",
+          "window": "18:00-20:00",
+          "arrive": "15:34",
+          "start": "18:00",
+          "end": "18:40",
+          "wait_min": 146,
+          "late_min": 0,
+          "km": 1.042,
+          "travel_min": 14
+        },
+        {
+          "job_id": "6185",
+          "seq": 4,
+          "address": "Город Москва, пр-кт.Балаклавский, д. 20 к 4",
+          "window": "18:00-20:00",
+          "arrive": "19:01",
+          "start": "19:01",
+          "end": "20:21",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.548,
+          "travel_min": 21
+        },
+        {
+          "job_id": "24132",
+          "seq": 5,
+          "address": "Город Москва, пр-кт.Балаклавский, д. 50",
+          "window": "20:00-22:00",
+          "arrive": "20:49",
+          "start": "20:49",
+          "end": "21:29",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 2.1,
+          "travel_min": 28
+        }
+      ]
+    },
+    {
+      "engineer_id": "BR-ЮГО-04",
+      "engineer_name": "Бригада Дегтярёв",
+      "transport": "Общественный транспорт",
+      "depart": "14:28",
+      "km": 11.61,
+      "jobs": 5,
+      "travel_min": 80,
+      "stops": [
+        {
+          "job_id": "75881",
+          "seq": 1,
+          "address": "Город Москва, ул.Дмитрия Ульянова, д. 27",
+          "window": "14:00-16:00",
+          "arrive": "14:52",
+          "start": "14:52",
+          "end": "16:12",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 4.692,
+          "travel_min": 24
+        },
+        {
+          "job_id": "76944",
+          "seq": 2,
+          "address": "Город Москва, пр-кт.60-летия Октября, д. 18 к 2",
+          "window": "16:00-18:00",
+          "arrive": "16:25",
+          "start": "16:25",
+          "end": "17:45",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.383,
+          "travel_min": 13
+        },
+        {
+          "job_id": "19376",
+          "seq": 3,
+          "address": "Город Москва, ул.Винокурова, д. 12 к 4",
+          "window": "16:00-18:00",
+          "arrive": "18:00",
+          "start": "18:00",
+          "end": "19:20",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.961,
+          "travel_min": 15
+        },
+        {
+          "job_id": "49105",
+          "seq": 4,
+          "address": "Город Москва, ул.Ремизова, д. 15 к 2",
+          "window": "20:00-22:00",
+          "arrive": "19:35",
+          "start": "20:00",
+          "end": "20:30",
+          "wait_min": 25,
+          "late_min": 0,
+          "km": 2.065,
+          "travel_min": 15
+        },
+        {
+          "job_id": "97770",
+          "seq": 5,
+          "address": "Город Москва, ул.Нагорная, д. 44 к 2",
+          "window": "20:00-22:00",
+          "arrive": "20:43",
+          "start": "20:43",
+          "end": "22:03",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.514,
+          "travel_min": 13
+        }
+      ]
+    },
+    {
+      "engineer_id": "BR-ЮГО-07",
+      "engineer_name": "Бригада Ямщиков",
+      "transport": "Общественный транспорт",
+      "depart": "11:13",
+      "km": 17.96,
+      "jobs": 7,
+      "travel_min": 116,
+      "stops": [
+        {
+          "job_id": "20263",
+          "seq": 1,
+          "address": "Город Москва, ул.Болотниковская, д. 9 к 2",
+          "window": "10:00-12:00",
+          "arrive": "11:26",
+          "start": "11:26",
+          "end": "12:06",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.558,
+          "travel_min": 13
+        },
+        {
+          "job_id": "55711",
+          "seq": 2,
+          "address": "Город Москва, ул.Херсонская, д. 18",
+          "window": "12:00-14:00",
+          "arrive": "12:26",
+          "start": "12:26",
+          "end": "13:46",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 3.513,
+          "travel_min": 20
+        },
+        {
+          "job_id": "19203",
+          "seq": 3,
+          "address": "Город Москва, ул.Керченская, д. 6 к 2",
+          "window": "12:00-14:00",
+          "arrive": "14:00",
+          "start": "14:00",
+          "end": "15:20",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.79,
+          "travel_min": 14
+        },
+        {
+          "job_id": "17896",
+          "seq": 4,
+          "address": "Город Москва, ул.Керченская, д. 10 к 2",
+          "window": "14:00-16:00",
+          "arrive": "15:29",
+          "start": "15:29",
+          "end": "16:09",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 0.337,
+          "travel_min": 9
+        },
+        {
+          "job_id": "26896",
+          "seq": 5,
+          "address": "Город Москва, б-р.Чонгарский, д. 22 к 2",
+          "window": "18:00-20:00",
+          "arrive": "16:25",
+          "start": "18:00",
+          "end": "18:40",
+          "wait_min": 95,
+          "late_min": 0,
+          "km": 2.315,
+          "travel_min": 16
+        },
+        {
+          "job_id": "52576",
+          "seq": 6,
+          "address": "Город Москва, ул.Судостроительная, д. 27 к 2",
+          "window": "20:00-22:00",
+          "arrive": "19:12",
+          "start": "20:00",
+          "end": "21:20",
+          "wait_min": 48,
+          "late_min": 0,
+          "km": 7.254,
+          "travel_min": 32
+        },
+        {
+          "job_id": "95501",
+          "seq": 7,
+          "address": "Город Москва, ул.Затонная, д. 12 к 1",
+          "window": "20:00-22:00",
+          "arrive": "21:32",
+          "start": "21:32",
+          "end": "22:12",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.189,
+          "travel_min": 12
+        }
+      ]
+    },
+    {
+      "engineer_id": "BR-ЮГО-08",
+      "engineer_name": "Бригада Бердников",
+      "transport": "Велосипед",
+      "depart": "11:20",
+      "km": 34.54,
+      "jobs": 7,
+      "travel_min": 158,
+      "stops": [
+        {
+          "job_id": "80308",
+          "seq": 1,
+          "address": "Город Москва, ул.Большая Серпуховская, д. 31 к 6",
+          "window": "10:00-12:00",
+          "arrive": "12:00",
+          "start": "12:00",
+          "end": "12:40",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 8.762,
+          "travel_min": 40
+        },
+        {
+          "job_id": "13203",
+          "seq": 2,
+          "address": "Город Москва, пр-кт.Нахимовский, д. 50",
+          "window": "14:00-16:00",
+          "arrive": "13:22",
+          "start": "14:00",
+          "end": "14:40",
+          "wait_min": 38,
+          "late_min": 0,
+          "km": 9.169,
+          "travel_min": 42
+        },
+        {
+          "job_id": "18023",
+          "seq": 3,
+          "address": "г.Город Москва, пр-кт.Ленинский, д. 70/11",
+          "window": "14:00-16:00",
+          "arrive": "14:48",
+          "start": "14:48",
+          "end": "15:28",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.809,
+          "travel_min": 8
+        },
+        {
+          "job_id": "85188",
+          "seq": 4,
+          "address": "Город Москва, ул.Усачёва, д. 29 к 1",
+          "window": "16:00-18:00",
+          "arrive": "15:56",
+          "start": "16:00",
+          "end": "16:30",
+          "wait_min": 4,
+          "late_min": 0,
+          "km": 6.163,
+          "travel_min": 28
+        },
+        {
+          "job_id": "66315",
+          "seq": 5,
+          "address": "Город Москва, ул.Шверника, д. 3",
+          "window": "16:00-18:00",
+          "arrive": "16:59",
+          "start": "16:59",
+          "end": "18:19",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 6.291,
+          "travel_min": 29
+        },
+        {
+          "job_id": "27023",
+          "seq": 6,
+          "address": "Город Москва, ул.Шверника, д. 5 к 2",
+          "window": "18:00-20:00",
+          "arrive": "18:20",
+          "start": "18:20",
+          "end": "19:00",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 0.093,
+          "travel_min": 1
+        },
+        {
+          "job_id": "92618",
+          "seq": 7,
+          "address": "Город Москва, пр-кт.Севастопольский, д. 9 к 1",
+          "window": "18:00-20:00",
+          "arrive": "19:10",
+          "start": "19:10",
+          "end": "19:50",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 2.253,
+          "travel_min": 10
+        }
+      ]
+    },
+    {
+      "engineer_id": "BR-ЮГО-09",
+      "engineer_name": "Бригада Гуляев",
+      "transport": "Общественный транспорт",
+      "depart": "09:35",
+      "km": 24.06,
+      "jobs": 6,
+      "travel_min": 128,
+      "stops": [
+        {
+          "job_id": "6957",
+          "seq": 1,
+          "address": "Город Москва, ул.Усачёва, д. 25",
+          "window": "10:00-12:00",
+          "arrive": "10:24",
+          "start": "10:24",
+          "end": "11:44",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 12.201,
+          "travel_min": 49
+        },
+        {
+          "job_id": "79707",
+          "seq": 2,
+          "address": "Город Москва, ул.Плющиха, д. 42",
+          "window": "10:00-12:00",
+          "arrive": "12:00",
+          "start": "12:00",
+          "end": "13:20",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 2.36,
+          "travel_min": 16
+        },
+        {
+          "job_id": "79719",
+          "seq": 3,
+          "address": "Город Москва, б-р.Смоленский, д. 17 стр. 1",
+          "window": "12:00-14:00",
+          "arrive": "13:32",
+          "start": "13:32",
+          "end": "14:02",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.246,
+          "travel_min": 12
+        },
+        {
+          "job_id": "47560",
+          "seq": 4,
+          "address": "Город Москва, ул.Большая Пионерская, д. 33 к 2",
+          "window": "16:00-18:00",
+          "arrive": "14:25",
+          "start": "16:00",
+          "end": "17:20",
+          "wait_min": 95,
+          "late_min": 0,
+          "km": 4.65,
+          "travel_min": 23
+        },
+        {
+          "job_id": "66376",
+          "seq": 5,
+          "address": "Город Москва, ул.Дубининская, д. 59 к 2",
+          "window": "18:00-20:00",
+          "arrive": "17:30",
+          "start": "18:00",
+          "end": "19:20",
+          "wait_min": 30,
+          "late_min": 0,
+          "km": 0.613,
+          "travel_min": 10
+        },
+        {
+          "job_id": "32840",
+          "seq": 6,
+          "address": "Город Москва, проезд.3-й Павелецкий, д. 9",
+          "window": "18:00-20:00",
+          "arrive": "19:38",
+          "start": "19:38",
+          "end": "20:58",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 2.986,
+          "travel_min": 18
+        }
+      ]
+    },
+    {
+      "engineer_id": "BR-ЮГО-11",
+      "engineer_name": "Бригада Русаков",
+      "transport": "Пешеход",
+      "depart": "09:36",
+      "km": 13.36,
+      "jobs": 5,
+      "travel_min": 178,
+      "stops": [
+        {
+          "job_id": "16024",
+          "seq": 1,
+          "address": "Город Москва, б-р.Кленовый, д. 10 к 1",
+          "window": "10:00-12:00",
+          "arrive": "10:51",
+          "start": "10:51",
+          "end": "12:11",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 5.658,
+          "travel_min": 75
+        },
+        {
+          "job_id": "10776",
+          "seq": 2,
+          "address": "Город Москва, ул.Судостроительная, д. 36",
+          "window": "12:00-14:00",
+          "arrive": "12:27",
+          "start": "12:27",
+          "end": "13:47",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 1.182,
+          "travel_min": 16
+        },
+        {
+          "job_id": "84074",
+          "seq": 3,
+          "address": "Город Москва, наб.Нагатинская, д. 60 к 2",
+          "window": "12:00-14:00",
+          "arrive": "14:00",
+          "start": "14:00",
+          "end": "14:40",
+          "wait_min": 0,
+          "late_min": 0,
+          "km": 0.988,
+          "travel_min": 13
+        },
+        {
+          "job_id": "80548",
+          "seq": 4,
+          "address": "Город Москва, ул.Садовники, д. 10 к 1",
+          "window": "16:00-18:00",
+          "arrive": "15:31",
+          "start": "16:00",
+          "end": "17:20",
+          "wait_min": 29,
+          "late_min": 0,
+          "km": 3.818,
+          "travel_min": 51
+        },
+        {
+          "job_id": "26177",
+          "seq": 5,
+          "address": "Город Москва, ул.Академика Миллионщикова, д. 13 к 1",
+          "window": "20:00-22:00",
+          "arrive": "17:43",
+          "start": "20:00",
+          "end": "20:40",
+          "wait_min": 137,
+          "late_min": 0,
+          "km": 1.717,
+          "travel_min": 23
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "job_id": "32840",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-09",
+      "arrive": "19:38",
+      "start": "19:38",
+      "reason": ""
+    },
+    {
+      "job_id": "78540",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-02",
+      "arrive": "17:54",
+      "start": "18:00",
+      "reason": ""
+    },
+    {
+      "job_id": "66376",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-09",
+      "arrive": "17:30",
+      "start": "18:00",
+      "reason": ""
+    },
+    {
+      "job_id": "23637",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-01",
+      "arrive": "19:25",
+      "start": "20:00",
+      "reason": ""
+    },
+    {
+      "job_id": "97770",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-04",
+      "arrive": "20:43",
+      "start": "20:43",
+      "reason": ""
+    },
+    {
+      "job_id": "55711",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-07",
+      "arrive": "12:26",
+      "start": "12:26",
+      "reason": ""
+    },
+    {
+      "job_id": "76944",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-04",
+      "arrive": "16:25",
+      "start": "16:25",
+      "reason": ""
+    },
+    {
+      "job_id": "75881",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-04",
+      "arrive": "14:52",
+      "start": "14:52",
+      "reason": ""
+    },
+    {
+      "job_id": "85188",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-08",
+      "arrive": "15:56",
+      "start": "16:00",
+      "reason": ""
+    },
+    {
+      "job_id": "19376",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-04",
+      "arrive": "18:00",
+      "start": "18:00",
+      "reason": ""
+    },
+    {
+      "job_id": "6185",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-03",
+      "arrive": "19:01",
+      "start": "19:01",
+      "reason": ""
+    },
+    {
+      "job_id": "80548",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-11",
+      "arrive": "15:31",
+      "start": "16:00",
+      "reason": ""
+    },
+    {
+      "job_id": "76452",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-03",
+      "arrive": "12:17",
+      "start": "12:17",
+      "reason": ""
+    },
+    {
+      "job_id": "47560",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-09",
+      "arrive": "14:25",
+      "start": "16:00",
+      "reason": ""
+    },
+    {
+      "job_id": "79707",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-09",
+      "arrive": "12:00",
+      "start": "12:00",
+      "reason": ""
+    },
+    {
+      "job_id": "23142",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-01",
+      "arrive": "12:00",
+      "start": "12:00",
+      "reason": ""
+    },
+    {
+      "job_id": "10776",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-11",
+      "arrive": "12:27",
+      "start": "12:27",
+      "reason": ""
+    },
+    {
+      "job_id": "94447",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-01",
+      "arrive": "11:26",
+      "start": "11:26",
+      "reason": ""
+    },
+    {
+      "job_id": "94575",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-02",
+      "arrive": "19:24",
+      "start": "19:24",
+      "reason": ""
+    },
+    {
+      "job_id": "94431",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-02",
+      "arrive": "11:30",
+      "start": "11:30",
+      "reason": ""
+    },
+    {
+      "job_id": "52576",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-07",
+      "arrive": "19:12",
+      "start": "20:00",
+      "reason": ""
+    },
+    {
+      "job_id": "66315",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-08",
+      "arrive": "16:59",
+      "start": "16:59",
+      "reason": ""
+    },
+    {
+      "job_id": "93544",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-03",
+      "arrive": "14:00",
+      "start": "14:00",
+      "reason": ""
+    },
+    {
+      "job_id": "19203",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-07",
+      "arrive": "14:00",
+      "start": "14:00",
+      "reason": ""
+    },
+    {
+      "job_id": "16024",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-11",
+      "arrive": "10:51",
+      "start": "10:51",
+      "reason": ""
+    },
+    {
+      "job_id": "90373",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-01",
+      "arrive": "13:28",
+      "start": "13:28",
+      "reason": ""
+    },
+    {
+      "job_id": "79719",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-09",
+      "arrive": "13:32",
+      "start": "13:32",
+      "reason": ""
+    },
+    {
+      "job_id": "6957",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-09",
+      "arrive": "10:24",
+      "start": "10:24",
+      "reason": ""
+    },
+    {
+      "job_id": "78036",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-01",
+      "arrive": "21:25",
+      "start": "21:25",
+      "reason": ""
+    },
+    {
+      "job_id": "49105",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-04",
+      "arrive": "19:35",
+      "start": "20:00",
+      "reason": ""
+    },
+    {
+      "job_id": "27023",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-08",
+      "arrive": "18:20",
+      "start": "18:20",
+      "reason": ""
+    },
+    {
+      "job_id": "26177",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-11",
+      "arrive": "17:43",
+      "start": "20:00",
+      "reason": ""
+    },
+    {
+      "job_id": "77795",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-01",
+      "arrive": "18:42",
+      "start": "18:42",
+      "reason": ""
+    },
+    {
+      "job_id": "24132",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-03",
+      "arrive": "20:49",
+      "start": "20:49",
+      "reason": ""
+    },
+    {
+      "job_id": "99841",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-03",
+      "arrive": "15:34",
+      "start": "18:00",
+      "reason": ""
+    },
+    {
+      "job_id": "20263",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-07",
+      "arrive": "11:26",
+      "start": "11:26",
+      "reason": ""
+    },
+    {
+      "job_id": "51133",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-02",
+      "arrive": "13:03",
+      "start": "13:03",
+      "reason": ""
+    },
+    {
+      "job_id": "90709",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-01",
+      "arrive": "14:53",
+      "start": "16:00",
+      "reason": ""
+    },
+    {
+      "job_id": "84074",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-11",
+      "arrive": "14:00",
+      "start": "14:00",
+      "reason": ""
+    },
+    {
+      "job_id": "12263",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-01",
+      "arrive": "10:38",
+      "start": "10:38",
+      "reason": ""
+    },
+    {
+      "job_id": "95501",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-07",
+      "arrive": "21:32",
+      "start": "21:32",
+      "reason": ""
+    },
+    {
+      "job_id": "86002",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-02",
+      "arrive": "15:37",
+      "start": "15:37",
+      "reason": ""
+    },
+    {
+      "job_id": "92618",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-08",
+      "arrive": "19:10",
+      "start": "19:10",
+      "reason": ""
+    },
+    {
+      "job_id": "26845",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-02",
+      "arrive": "14:00",
+      "start": "14:00",
+      "reason": ""
+    },
+    {
+      "job_id": "80308",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-08",
+      "arrive": "12:00",
+      "start": "12:00",
+      "reason": ""
+    },
+    {
+      "job_id": "93276",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-02",
+      "arrive": "16:22",
+      "start": "16:22",
+      "reason": ""
+    },
+    {
+      "job_id": "61311",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-02",
+      "arrive": "17:11",
+      "start": "17:11",
+      "reason": ""
+    },
+    {
+      "job_id": "46513",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-02",
+      "arrive": "10:48",
+      "start": "10:48",
+      "reason": ""
+    },
+    {
+      "job_id": "35265",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-01",
+      "arrive": "17:55",
+      "start": "17:55",
+      "reason": ""
+    },
+    {
+      "job_id": "13203",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-08",
+      "arrive": "13:22",
+      "start": "14:00",
+      "reason": ""
+    },
+    {
+      "job_id": "26896",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-07",
+      "arrive": "16:25",
+      "start": "18:00",
+      "reason": ""
+    },
+    {
+      "job_id": "87819",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-02",
+      "arrive": "14:51",
+      "start": "14:51",
+      "reason": ""
+    },
+    {
+      "job_id": "5406",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-02",
+      "arrive": "10:00",
+      "start": "10:00",
+      "reason": ""
+    },
+    {
+      "job_id": "86864",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-01",
+      "arrive": "17:00",
+      "start": "17:00",
+      "reason": ""
+    },
+    {
+      "job_id": "17896",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-07",
+      "arrive": "15:29",
+      "start": "15:29",
+      "reason": ""
+    },
+    {
+      "job_id": "18023",
+      "status": "назначена",
+      "engineer_id": "BR-ЮГО-08",
+      "arrive": "14:48",
+      "start": "14:48",
+      "reason": ""
+    }
+  ],
+  "unassigned": [],
+  "meta": {
+    "objective": 80179773,
+    "fleet_size": 11
+  }
+}

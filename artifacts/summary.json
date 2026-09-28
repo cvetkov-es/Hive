@@ -1,0 +1,170 @@
+{
+ "built_at": "2026-09-23T12:27:38+00:00",
+ "seconds_per_region": 600,
+ "machine": "Intel64 Family 6 Model 165 Stepping 5, GenuineIntel",
+ "regions": [
+  {
+   "region": "Восток",
+   "jobs": 66,
+   "fleet": 12,
+   "plan": {
+    "engineers": 8,
+    "km": 205.27,
+    "assigned": 66,
+    "late": 0
+   },
+   "baseline": {
+    "engineers": 12,
+    "km": 297.3,
+    "assigned": 45
+   },
+   "cpu_seconds": 597.9,
+   "wall_seconds": 600.0,
+   "built_at": "2026-09-23T12:27:38+00:00",
+   "machine": "Intel64 Family 6 Model 165 Stepping 5, GenuineIntel"
+  },
+  {
+   "region": "Юго-восток",
+   "jobs": 83,
+   "fleet": 15,
+   "plan": {
+    "engineers": 12,
+    "km": 319.43,
+    "assigned": 83,
+    "late": 0
+   },
+   "baseline": {
+    "engineers": 15,
+    "km": 406.78,
+    "assigned": 63
+   },
+   "cpu_seconds": 597.6,
+   "wall_seconds": 600.0
+  },
+  {
+   "region": "Югоцентр",
+   "jobs": 56,
+   "fleet": 11,
+   "plan": {
+    "engineers": 7,
+    "km": 190.68,
+    "assigned": 56,
+    "late": 0
+   },
+   "baseline": {
+    "engineers": 11,
+    "km": 269.7,
+    "assigned": 40
+   },
+   "cpu_seconds": 597.8,
+   "wall_seconds": 600.0
+  }
+ ],
+ "curves": {
+  "Восток": [
+   {
+    "fleet": 6,
+    "used": 6,
+    "km": 179.31,
+    "assigned": 54,
+    "unassigned": 12,
+    "source": "180 с"
+   },
+   {
+    "fleet": 7,
+    "used": 7,
+    "km": 189.1,
+    "assigned": 60,
+    "unassigned": 6,
+    "source": "180 с"
+   },
+   {
+    "fleet": 8,
+    "used": 8,
+    "km": 205.27,
+    "assigned": 66,
+    "unassigned": 0,
+    "source": "основной прогон"
+   },
+   {
+    "fleet": 12,
+    "used": 8,
+    "km": 205.27,
+    "assigned": 66,
+    "unassigned": 0,
+    "source": "основной прогон"
+   }
+  ],
+  "Юго-восток": [
+   {
+    "fleet": 10,
+    "used": 10,
+    "km": 277.81,
+    "assigned": 75,
+    "unassigned": 8,
+    "source": "180 с"
+   },
+   {
+    "fleet": 11,
+    "used": 11,
+    "km": 286.54,
+    "assigned": 79,
+    "unassigned": 4,
+    "source": "180 с"
+   },
+   {
+    "fleet": 12,
+    "used": 12,
+    "km": 319.43,
+    "assigned": 83,
+    "unassigned": 0,
+    "source": "основной прогон"
+   },
+   {
+    "fleet": 15,
+    "used": 12,
+    "km": 319.43,
+    "assigned": 83,
+    "unassigned": 0,
+    "source": "основной прогон"
+   }
+  ],
+  "Югоцентр": [
+   {
+    "fleet": 5,
+    "used": 5,
+    "km": 151.48,
+    "assigned": 46,
+    "unassigned": 10,
+    "source": "180 с"
+   },
+   {
+    "fleet": 6,
+    "used": 6,
+    "km": 191.04,
+    "assigned": 53,
+    "unassigned": 3,
+    "source": "180 с"
+   },
+   {
+    "fleet": 7,
+    "used": 7,
+    "km": 190.68,
+    "assigned": 56,
+    "unassigned": 0,
+    "source": "основной прогон"
+   },
+   {
+    "fleet": 11,
+    "used": 7,
+    "km": 190.68,
+    "assigned": 56,
+    "unassigned": 0,
+    "source": "основной прогон"
+   }
+  ]
+ },
+ "curve_seconds": 180,
+ "curve_built_at": "2026-09-28T04:13:55+00:00",
+ "curve_machine": "Intel64 Family 6 Model 165 Stepping 5, GenuineIntel"
+}

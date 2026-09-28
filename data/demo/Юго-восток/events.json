@@ -1,0 +1,29 @@
+[
+  {
+    "type": "urgent",
+    "at": "15:40",
+    "job": {
+      "id": "AVARIA-DEMO",
+      "lat": 55.6145,
+      "lon": 37.6725,
+      "address": "адрес введён диспетчером",
+      "duration_min": 90,
+      "window_start": "15:40",
+      "window_end": "17:40",
+      "priority": 2,
+      "required_skill": 3,
+      "required_transport": 1,
+      "equipment": {}
+    }
+  },
+  {
+    "type": "cancel",
+    "at": "15:40",
+    "job_id": "7660"
+  },
+  {
+    "type": "unavailable",
+    "at": "15:40",
+    "engineer_id": "BR-ЮГО-01"
+  }
+]

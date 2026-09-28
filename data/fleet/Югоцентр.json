@@ -1,0 +1,186 @@
+[
+ {
+  "id": "BR-ЮГО-01",
+  "name": "Бригада Ефимов",
+  "depot": "office",
+  "cluster": "Москва",
+  "skills": [
+   "connect",
+   "emergency",
+   "local"
+  ],
+  "transport": "car",
+  "shift_start": 570,
+  "shift_end": 1410,
+  "equipment": {
+   "router": 3,
+   "tvbox": 1
+  }
+ },
+ {
+  "id": "BR-ЮГО-02",
+  "name": "Бригада Ковалёв",
+  "depot": "office",
+  "cluster": "Москва",
+  "skills": [
+   "connect",
+   "local"
+  ],
+  "transport": "car",
+  "shift_start": 570,
+  "shift_end": 1410,
+  "equipment": {
+   "router": 3,
+   "tvbox": 1
+  }
+ },
+ {
+  "id": "BR-ЮГО-03",
+  "name": "Бригада Панкратов",
+  "depot": "office",
+  "cluster": "Москва",
+  "skills": [
+   "connect",
+   "local"
+  ],
+  "transport": "foot",
+  "shift_start": 570,
+  "shift_end": 1410,
+  "equipment": {
+   "router": 3,
+   "tvbox": 1
+  }
+ },
+ {
+  "id": "BR-ЮГО-04",
+  "name": "Бригада Дегтярёв",
+  "depot": "office",
+  "cluster": "Москва",
+  "skills": [
+   "connect"
+  ],
+  "transport": "transit",
+  "shift_start": 570,
+  "shift_end": 1410,
+  "equipment": {
+   "router": 3,
+   "tvbox": 1
+  }
+ },
+ {
+  "id": "BR-ЮГО-05",
+  "name": "Бригада Сорокин",
+  "depot": "office",
+  "cluster": "Москва",
+  "skills": [
+   "local"
+  ],
+  "transport": "transit",
+  "shift_start": 570,
+  "shift_end": 1410,
+  "equipment": {
+   "router": 3,
+   "tvbox": 1
+  }
+ },
+ {
+  "id": "BR-ЮГО-06",
+  "name": "Бригада Лыткин",
+  "depot": "office",
+  "cluster": "Москва",
+  "skills": [
+   "connect",
+   "local"
+  ],
+  "transport": "foot",
+  "shift_start": 570,
+  "shift_end": 1410,
+  "equipment": {
+   "router": 2,
+   "tvbox": 1
+  }
+ },
+ {
+  "id": "BR-ЮГО-07",
+  "name": "Бригада Ямщиков",
+  "depot": "office",
+  "cluster": "Москва",
+  "skills": [
+   "connect",
+   "local"
+  ],
+  "transport": "transit",
+  "shift_start": 570,
+  "shift_end": 1410,
+  "equipment": {
+   "router": 2,
+   "tvbox": 1
+  }
+ },
+ {
+  "id": "BR-ЮГО-08",
+  "name": "Бригада Бердников",
+  "depot": "office",
+  "cluster": "Москва",
+  "skills": [
+   "connect",
+   "local"
+  ],
+  "transport": "bike",
+  "shift_start": 570,
+  "shift_end": 1410,
+  "equipment": {
+   "router": 2,
+   "tvbox": 1
+  }
+ },
+ {
+  "id": "BR-ЮГО-09",
+  "name": "Бригада Гуляев",
+  "depot": "office",
+  "cluster": "Москва",
+  "skills": [
+   "connect"
+  ],
+  "transport": "transit",
+  "shift_start": 570,
+  "shift_end": 1410,
+  "equipment": {
+   "router": 2,
+   "tvbox": 1
+  }
+ },
+ {
+  "id": "BR-ЮГО-10",
+  "name": "Бригада Шестаков",
+  "depot": "office",
+  "cluster": "Москва",
+  "skills": [
+   "local"
+  ],
+  "transport": "transit",
+  "shift_start": 570,
+  "shift_end": 1410,
+  "equipment": {
+   "router": 2,
+   "tvbox": 1
+  }
+ },
+ {
+  "id": "BR-ЮГО-11",
+  "name": "Бригада Русаков",
+  "depot": "office",
+  "cluster": "Москва",
+  "skills": [
+   "connect",
+   "local"
+  ],
+  "transport": "foot",
+  "shift_start": 570,
+  "shift_end": 1410,
+  "equipment": {
+   "router": 2,
+   "tvbox": 1
+  }
+ }
+]

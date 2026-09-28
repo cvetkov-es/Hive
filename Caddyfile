@@ -1,0 +1,25 @@
+# Стенд Улья за Caddy. Сертификат Let's Encrypt Caddy получает и продлевает
+# сам; HTTP перенаправляется на HTTPS. Домен — из переменной HIVE_DOMAIN
+# (см. docker-compose.yml).
+{$HIVE_DOMAIN} {
+	encode zstd gzip
+
+	# Самый большой запрос интерфейса — событие с новой заявкой, это
+	# килобайты. Мегабайта хватает с запасом.
+	request_body {
+		max_size 1MB
+	}
+
+	header {
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		# Не no-referrer: сервер подложки карты OpenStreetMap требует Referer
+		# и без него отказывает в тайлах.
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+
+	# Живой пересчёт идёт до минуты; у reverse_proxy Caddy по умолчанию нет
+	# предела на ожидание ответа, поэтому отдельные таймауты не нужны.
+	reverse_proxy hive:8000
+}

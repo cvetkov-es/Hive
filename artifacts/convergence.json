@@ -1,0 +1,2830 @@
+{
+ "built_at": "2026-09-27T09:01:12+00:00",
+ "machine": "Intel64 Family 6 Model 165 Stepping 5, GenuineIntel",
+ "cores": 12,
+ "processes": 3,
+ "seconds_per_region": 600,
+ "regions": {
+  "Восток": {
+   "jobs": 66,
+   "fleet": 12,
+   "final": {
+    "engineers": 8,
+    "km": 205.27,
+    "assigned": 66
+   },
+   "steps": [
+    {
+     "seconds": 0.01,
+     "engineers": 12,
+     "km": 166.27,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 12,
+     "km": 154.63,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 12,
+     "km": 150.79,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 12,
+     "km": 137.54,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 11,
+     "km": 141.22,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 11,
+     "km": 140.62,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 11,
+     "km": 139.81,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 11,
+     "km": 138.73,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 11,
+     "km": 138.52,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 11,
+     "km": 136.57,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 11,
+     "km": 133.68,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 11,
+     "km": 133.07,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 11,
+     "km": 129.09,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 11,
+     "km": 127.79,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 11,
+     "km": 127.64,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 11,
+     "km": 125.17,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.04,
+     "engineers": 11,
+     "km": 123.23,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.04,
+     "engineers": 11,
+     "km": 123.09,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.05,
+     "engineers": 11,
+     "km": 121.99,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.06,
+     "engineers": 10,
+     "km": 125.46,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.06,
+     "engineers": 9,
+     "km": 132.49,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.06,
+     "engineers": 9,
+     "km": 128.32,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.07,
+     "engineers": 9,
+     "km": 127.49,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 9,
+     "km": 125.21,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 9,
+     "km": 124.74,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 9,
+     "km": 123.9,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 9,
+     "km": 123.37,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 9,
+     "km": 118.79,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.09,
+     "engineers": 9,
+     "km": 118.64,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 9,
+     "km": 136.26,
+     "assigned": 46
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 10,
+     "km": 145.65,
+     "assigned": 47
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 10,
+     "km": 147.39,
+     "assigned": 48
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 10,
+     "km": 162.45,
+     "assigned": 49
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 11,
+     "km": 172.56,
+     "assigned": 50
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 11,
+     "km": 174.12,
+     "assigned": 51
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 11,
+     "km": 192.58,
+     "assigned": 52
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 11,
+     "km": 192.98,
+     "assigned": 53
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 11,
+     "km": 196.78,
+     "assigned": 54
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 11,
+     "km": 208.24,
+     "assigned": 55
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 11,
+     "km": 212.44,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 11,
+     "km": 211.61,
+     "assigned": 57
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 11,
+     "km": 222.26,
+     "assigned": 58
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 12,
+     "km": 234.93,
+     "assigned": 59
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 12,
+     "km": 241.78,
+     "assigned": 60
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 12,
+     "km": 245.69,
+     "assigned": 61
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 12,
+     "km": 252.02,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 12,
+     "km": 253.72,
+     "assigned": 63
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 12,
+     "km": 247.78,
+     "assigned": 63
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 12,
+     "km": 256.67,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 12,
+     "km": 255.07,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.13,
+     "engineers": 12,
+     "km": 252.29,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.13,
+     "engineers": 12,
+     "km": 252.12,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.13,
+     "engineers": 12,
+     "km": 244.62,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.13,
+     "engineers": 12,
+     "km": 244.05,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.14,
+     "engineers": 12,
+     "km": 243.24,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.14,
+     "engineers": 12,
+     "km": 240.7,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.14,
+     "engineers": 12,
+     "km": 240.26,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.14,
+     "engineers": 12,
+     "km": 239.44,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.14,
+     "engineers": 12,
+     "km": 238.38,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.14,
+     "engineers": 12,
+     "km": 237.46,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.15,
+     "engineers": 12,
+     "km": 237.14,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.15,
+     "engineers": 11,
+     "km": 240.87,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.15,
+     "engineers": 11,
+     "km": 236.97,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.15,
+     "engineers": 11,
+     "km": 236.29,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.15,
+     "engineers": 11,
+     "km": 233.51,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.16,
+     "engineers": 11,
+     "km": 231.27,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.16,
+     "engineers": 11,
+     "km": 231.07,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.16,
+     "engineers": 11,
+     "km": 229.58,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.16,
+     "engineers": 11,
+     "km": 228.64,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.16,
+     "engineers": 11,
+     "km": 228.24,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.17,
+     "engineers": 11,
+     "km": 227.45,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.17,
+     "engineers": 11,
+     "km": 224.81,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.17,
+     "engineers": 11,
+     "km": 224.68,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.17,
+     "engineers": 11,
+     "km": 223.21,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.18,
+     "engineers": 11,
+     "km": 223.01,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.18,
+     "engineers": 11,
+     "km": 221.45,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.18,
+     "engineers": 11,
+     "km": 213.54,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.19,
+     "engineers": 11,
+     "km": 213.37,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.19,
+     "engineers": 11,
+     "km": 211.42,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.2,
+     "engineers": 11,
+     "km": 209.09,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.2,
+     "engineers": 11,
+     "km": 207.75,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.2,
+     "engineers": 11,
+     "km": 206.83,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.21,
+     "engineers": 11,
+     "km": 206.46,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.22,
+     "engineers": 11,
+     "km": 206.03,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.23,
+     "engineers": 11,
+     "km": 205.25,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.24,
+     "engineers": 11,
+     "km": 204.79,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.26,
+     "engineers": 11,
+     "km": 204.21,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.28,
+     "engineers": 11,
+     "km": 203.6,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.28,
+     "engineers": 11,
+     "km": 198.19,
+     "assigned": 62
+    },
+    {
+     "seconds": 0.3,
+     "engineers": 11,
+     "km": 212.41,
+     "assigned": 63
+    },
+    {
+     "seconds": 0.3,
+     "engineers": 11,
+     "km": 229.59,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.3,
+     "engineers": 11,
+     "km": 215.9,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.31,
+     "engineers": 11,
+     "km": 204.51,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.31,
+     "engineers": 11,
+     "km": 204.4,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.32,
+     "engineers": 11,
+     "km": 203.6,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.33,
+     "engineers": 11,
+     "km": 197.76,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.34,
+     "engineers": 11,
+     "km": 194.84,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.35,
+     "engineers": 11,
+     "km": 192.26,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.36,
+     "engineers": 11,
+     "km": 190.21,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.37,
+     "engineers": 11,
+     "km": 181.73,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.37,
+     "engineers": 11,
+     "km": 181.16,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.38,
+     "engineers": 11,
+     "km": 177.31,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.38,
+     "engineers": 11,
+     "km": 173.75,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.39,
+     "engineers": 11,
+     "km": 173.5,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.39,
+     "engineers": 11,
+     "km": 171.29,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.4,
+     "engineers": 11,
+     "km": 171.0,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.41,
+     "engineers": 11,
+     "km": 170.72,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.42,
+     "engineers": 11,
+     "km": 169.64,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.44,
+     "engineers": 11,
+     "km": 169.28,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.45,
+     "engineers": 11,
+     "km": 168.87,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.45,
+     "engineers": 11,
+     "km": 168.17,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.5,
+     "engineers": 11,
+     "km": 167.27,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.52,
+     "engineers": 11,
+     "km": 166.12,
+     "assigned": 64
+    },
+    {
+     "seconds": 0.55,
+     "engineers": 11,
+     "km": 184.59,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.56,
+     "engineers": 10,
+     "km": 203.73,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.63,
+     "engineers": 10,
+     "km": 195.0,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.63,
+     "engineers": 10,
+     "km": 190.7,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.63,
+     "engineers": 10,
+     "km": 190.26,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.63,
+     "engineers": 10,
+     "km": 188.49,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.64,
+     "engineers": 10,
+     "km": 187.12,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.64,
+     "engineers": 10,
+     "km": 186.15,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.66,
+     "engineers": 10,
+     "km": 184.61,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.71,
+     "engineers": 9,
+     "km": 218.48,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.74,
+     "engineers": 9,
+     "km": 217.94,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.81,
+     "engineers": 9,
+     "km": 204.86,
+     "assigned": 66
+    },
+    {
+     "seconds": 1.89,
+     "engineers": 9,
+     "km": 204.67,
+     "assigned": 66
+    },
+    {
+     "seconds": 2.0,
+     "engineers": 9,
+     "km": 204.18,
+     "assigned": 66
+    },
+    {
+     "seconds": 2.03,
+     "engineers": 9,
+     "km": 203.8,
+     "assigned": 66
+    },
+    {
+     "seconds": 2.03,
+     "engineers": 9,
+     "km": 201.44,
+     "assigned": 66
+    },
+    {
+     "seconds": 2.31,
+     "engineers": 9,
+     "km": 198.22,
+     "assigned": 66
+    },
+    {
+     "seconds": 2.57,
+     "engineers": 9,
+     "km": 194.59,
+     "assigned": 66
+    },
+    {
+     "seconds": 38.69,
+     "engineers": 9,
+     "km": 193.68,
+     "assigned": 66
+    },
+    {
+     "seconds": 42.44,
+     "engineers": 9,
+     "km": 190.99,
+     "assigned": 66
+    },
+    {
+     "seconds": 42.86,
+     "engineers": 9,
+     "km": 190.67,
+     "assigned": 66
+    },
+    {
+     "seconds": 42.89,
+     "engineers": 9,
+     "km": 189.81,
+     "assigned": 66
+    },
+    {
+     "seconds": 42.93,
+     "engineers": 9,
+     "km": 184.99,
+     "assigned": 66
+    },
+    {
+     "seconds": 43.36,
+     "engineers": 8,
+     "km": 214.55,
+     "assigned": 66
+    },
+    {
+     "seconds": 43.45,
+     "engineers": 8,
+     "km": 213.4,
+     "assigned": 66
+    },
+    {
+     "seconds": 43.47,
+     "engineers": 8,
+     "km": 212.21,
+     "assigned": 66
+    },
+    {
+     "seconds": 44.68,
+     "engineers": 8,
+     "km": 209.95,
+     "assigned": 66
+    },
+    {
+     "seconds": 533.54,
+     "engineers": 8,
+     "km": 209.36,
+     "assigned": 66
+    },
+    {
+     "seconds": 533.55,
+     "engineers": 8,
+     "km": 207.91,
+     "assigned": 66
+    },
+    {
+     "seconds": 533.58,
+     "engineers": 8,
+     "km": 207.32,
+     "assigned": 66
+    },
+    {
+     "seconds": 533.58,
+     "engineers": 8,
+     "km": 206.72,
+     "assigned": 66
+    },
+    {
+     "seconds": 533.59,
+     "engineers": 8,
+     "km": 205.27,
+     "assigned": 66
+    }
+   ]
+  },
+  "Юго-восток": {
+   "jobs": 83,
+   "fleet": 15,
+   "final": {
+    "engineers": 12,
+    "km": 319.43,
+    "assigned": 83
+   },
+   "steps": [
+    {
+     "seconds": 0.02,
+     "engineers": 15,
+     "km": 237.22,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 15,
+     "km": 245.63,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 15,
+     "km": 269.7,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 15,
+     "km": 269.22,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 15,
+     "km": 232.5,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.04,
+     "engineers": 15,
+     "km": 228.53,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.04,
+     "engineers": 15,
+     "km": 228.1,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.04,
+     "engineers": 15,
+     "km": 227.84,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.05,
+     "engineers": 15,
+     "km": 224.44,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.05,
+     "engineers": 15,
+     "km": 220.38,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.05,
+     "engineers": 14,
+     "km": 225.81,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.05,
+     "engineers": 14,
+     "km": 223.46,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.06,
+     "engineers": 14,
+     "km": 215.17,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.06,
+     "engineers": 14,
+     "km": 213.31,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.06,
+     "engineers": 14,
+     "km": 210.79,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.07,
+     "engineers": 14,
+     "km": 203.92,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.07,
+     "engineers": 14,
+     "km": 202.13,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 14,
+     "km": 198.25,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 14,
+     "km": 195.77,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 13,
+     "km": 194.5,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 13,
+     "km": 210.36,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.09,
+     "engineers": 13,
+     "km": 249.16,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.09,
+     "engineers": 13,
+     "km": 248.18,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.09,
+     "engineers": 13,
+     "km": 247.02,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.09,
+     "engineers": 13,
+     "km": 246.55,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 13,
+     "km": 247.13,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 13,
+     "km": 255.01,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 13,
+     "km": 261.37,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 13,
+     "km": 257.36,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 13,
+     "km": 256.05,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 13,
+     "km": 255.8,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 13,
+     "km": 252.95,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 13,
+     "km": 251.57,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 13,
+     "km": 246.43,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.13,
+     "engineers": 13,
+     "km": 235.96,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.13,
+     "engineers": 13,
+     "km": 244.88,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.13,
+     "engineers": 13,
+     "km": 245.6,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.13,
+     "engineers": 13,
+     "km": 255.65,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.14,
+     "engineers": 13,
+     "km": 250.31,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.14,
+     "engineers": 13,
+     "km": 248.1,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.14,
+     "engineers": 13,
+     "km": 246.23,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.15,
+     "engineers": 13,
+     "km": 245.37,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.15,
+     "engineers": 13,
+     "km": 244.54,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.15,
+     "engineers": 12,
+     "km": 250.41,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.16,
+     "engineers": 12,
+     "km": 247.9,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.16,
+     "engineers": 12,
+     "km": 247.29,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.16,
+     "engineers": 11,
+     "km": 252.41,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.16,
+     "engineers": 11,
+     "km": 242.45,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.17,
+     "engineers": 11,
+     "km": 235.36,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.17,
+     "engineers": 11,
+     "km": 225.86,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.17,
+     "engineers": 11,
+     "km": 226.35,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.18,
+     "engineers": 11,
+     "km": 227.01,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.18,
+     "engineers": 11,
+     "km": 226.2,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.18,
+     "engineers": 11,
+     "km": 217.37,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.18,
+     "engineers": 11,
+     "km": 216.61,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.19,
+     "engineers": 11,
+     "km": 232.22,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.19,
+     "engineers": 11,
+     "km": 227.31,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.19,
+     "engineers": 11,
+     "km": 226.68,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.19,
+     "engineers": 11,
+     "km": 230.95,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.2,
+     "engineers": 11,
+     "km": 226.01,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.2,
+     "engineers": 11,
+     "km": 226.81,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.21,
+     "engineers": 11,
+     "km": 226.15,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.22,
+     "engineers": 11,
+     "km": 225.17,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.22,
+     "engineers": 11,
+     "km": 223.01,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.23,
+     "engineers": 11,
+     "km": 221.46,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.24,
+     "engineers": 11,
+     "km": 221.21,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.26,
+     "engineers": 11,
+     "km": 220.7,
+     "assigned": 66
+    },
+    {
+     "seconds": 0.32,
+     "engineers": 12,
+     "km": 231.25,
+     "assigned": 67
+    },
+    {
+     "seconds": 0.32,
+     "engineers": 12,
+     "km": 233.25,
+     "assigned": 68
+    },
+    {
+     "seconds": 0.33,
+     "engineers": 12,
+     "km": 234.04,
+     "assigned": 69
+    },
+    {
+     "seconds": 0.33,
+     "engineers": 12,
+     "km": 242.18,
+     "assigned": 70
+    },
+    {
+     "seconds": 0.33,
+     "engineers": 13,
+     "km": 252.6,
+     "assigned": 71
+    },
+    {
+     "seconds": 0.33,
+     "engineers": 13,
+     "km": 254.22,
+     "assigned": 72
+    },
+    {
+     "seconds": 0.33,
+     "engineers": 13,
+     "km": 254.27,
+     "assigned": 73
+    },
+    {
+     "seconds": 0.34,
+     "engineers": 13,
+     "km": 255.02,
+     "assigned": 74
+    },
+    {
+     "seconds": 0.34,
+     "engineers": 13,
+     "km": 286.29,
+     "assigned": 75
+    },
+    {
+     "seconds": 0.34,
+     "engineers": 13,
+     "km": 312.35,
+     "assigned": 76
+    },
+    {
+     "seconds": 0.34,
+     "engineers": 13,
+     "km": 328.32,
+     "assigned": 77
+    },
+    {
+     "seconds": 0.35,
+     "engineers": 13,
+     "km": 332.7,
+     "assigned": 78
+    },
+    {
+     "seconds": 0.35,
+     "engineers": 13,
+     "km": 346.15,
+     "assigned": 79
+    },
+    {
+     "seconds": 0.35,
+     "engineers": 13,
+     "km": 349.02,
+     "assigned": 80
+    },
+    {
+     "seconds": 0.36,
+     "engineers": 14,
+     "km": 357.97,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.37,
+     "engineers": 14,
+     "km": 358.95,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.37,
+     "engineers": 14,
+     "km": 358.76,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.38,
+     "engineers": 14,
+     "km": 353.49,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.38,
+     "engineers": 14,
+     "km": 350.0,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.39,
+     "engineers": 14,
+     "km": 359.96,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.39,
+     "engineers": 14,
+     "km": 343.84,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.4,
+     "engineers": 14,
+     "km": 338.05,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.41,
+     "engineers": 14,
+     "km": 336.91,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.41,
+     "engineers": 14,
+     "km": 334.66,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.41,
+     "engineers": 14,
+     "km": 330.15,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.41,
+     "engineers": 14,
+     "km": 328.34,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.42,
+     "engineers": 14,
+     "km": 324.43,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.44,
+     "engineers": 14,
+     "km": 324.04,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.46,
+     "engineers": 14,
+     "km": 336.98,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.46,
+     "engineers": 14,
+     "km": 337.68,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.47,
+     "engineers": 14,
+     "km": 337.57,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.48,
+     "engineers": 14,
+     "km": 336.05,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.48,
+     "engineers": 14,
+     "km": 338.08,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.5,
+     "engineers": 14,
+     "km": 336.6,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.5,
+     "engineers": 14,
+     "km": 336.41,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.5,
+     "engineers": 14,
+     "km": 335.74,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.51,
+     "engineers": 14,
+     "km": 323.53,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.51,
+     "engineers": 14,
+     "km": 325.44,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.52,
+     "engineers": 14,
+     "km": 324.5,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.52,
+     "engineers": 14,
+     "km": 290.78,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.53,
+     "engineers": 14,
+     "km": 290.02,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.53,
+     "engineers": 14,
+     "km": 289.42,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.53,
+     "engineers": 14,
+     "km": 288.79,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.54,
+     "engineers": 14,
+     "km": 287.65,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.55,
+     "engineers": 14,
+     "km": 287.28,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.56,
+     "engineers": 14,
+     "km": 286.52,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.58,
+     "engineers": 14,
+     "km": 286.18,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.58,
+     "engineers": 14,
+     "km": 285.04,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.61,
+     "engineers": 14,
+     "km": 284.78,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.65,
+     "engineers": 14,
+     "km": 283.77,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.68,
+     "engineers": 14,
+     "km": 278.95,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.68,
+     "engineers": 14,
+     "km": 278.43,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.73,
+     "engineers": 14,
+     "km": 277.75,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.75,
+     "engineers": 14,
+     "km": 288.66,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.76,
+     "engineers": 14,
+     "km": 287.88,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.77,
+     "engineers": 14,
+     "km": 282.82,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.78,
+     "engineers": 14,
+     "km": 283.26,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.81,
+     "engineers": 14,
+     "km": 283.1,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.83,
+     "engineers": 14,
+     "km": 282.95,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.89,
+     "engineers": 14,
+     "km": 281.8,
+     "assigned": 81
+    },
+    {
+     "seconds": 0.97,
+     "engineers": 14,
+     "km": 286.64,
+     "assigned": 82
+    },
+    {
+     "seconds": 0.98,
+     "engineers": 13,
+     "km": 313.95,
+     "assigned": 82
+    },
+    {
+     "seconds": 1.0,
+     "engineers": 13,
+     "km": 297.24,
+     "assigned": 82
+    },
+    {
+     "seconds": 1.0,
+     "engineers": 13,
+     "km": 322.13,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.03,
+     "engineers": 13,
+     "km": 337.05,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.08,
+     "engineers": 13,
+     "km": 335.11,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.08,
+     "engineers": 13,
+     "km": 323.01,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.14,
+     "engineers": 13,
+     "km": 321.73,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.14,
+     "engineers": 13,
+     "km": 321.16,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.15,
+     "engineers": 13,
+     "km": 319.54,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.16,
+     "engineers": 13,
+     "km": 286.96,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.17,
+     "engineers": 13,
+     "km": 283.01,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.18,
+     "engineers": 13,
+     "km": 280.94,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.22,
+     "engineers": 13,
+     "km": 280.29,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.25,
+     "engineers": 13,
+     "km": 281.65,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.25,
+     "engineers": 13,
+     "km": 281.26,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.26,
+     "engineers": 13,
+     "km": 282.04,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.26,
+     "engineers": 13,
+     "km": 309.16,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.28,
+     "engineers": 13,
+     "km": 310.61,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.29,
+     "engineers": 13,
+     "km": 313.16,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.29,
+     "engineers": 13,
+     "km": 302.53,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.29,
+     "engineers": 13,
+     "km": 302.02,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.29,
+     "engineers": 13,
+     "km": 300.99,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.31,
+     "engineers": 13,
+     "km": 301.35,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.33,
+     "engineers": 13,
+     "km": 295.15,
+     "assigned": 83
+    },
+    {
+     "seconds": 1.34,
+     "engineers": 13,
+     "km": 291.37,
+     "assigned": 83
+    },
+    {
+     "seconds": 3.55,
+     "engineers": 13,
+     "km": 262.58,
+     "assigned": 83
+    },
+    {
+     "seconds": 4.19,
+     "engineers": 13,
+     "km": 279.44,
+     "assigned": 83
+    },
+    {
+     "seconds": 4.21,
+     "engineers": 13,
+     "km": 279.59,
+     "assigned": 83
+    },
+    {
+     "seconds": 4.22,
+     "engineers": 13,
+     "km": 279.33,
+     "assigned": 83
+    },
+    {
+     "seconds": 4.26,
+     "engineers": 13,
+     "km": 278.32,
+     "assigned": 83
+    },
+    {
+     "seconds": 4.27,
+     "engineers": 13,
+     "km": 277.36,
+     "assigned": 83
+    },
+    {
+     "seconds": 4.36,
+     "engineers": 13,
+     "km": 277.04,
+     "assigned": 83
+    },
+    {
+     "seconds": 4.36,
+     "engineers": 13,
+     "km": 278.02,
+     "assigned": 83
+    },
+    {
+     "seconds": 4.39,
+     "engineers": 13,
+     "km": 277.04,
+     "assigned": 83
+    },
+    {
+     "seconds": 35.0,
+     "engineers": 13,
+     "km": 272.19,
+     "assigned": 83
+    },
+    {
+     "seconds": 38.22,
+     "engineers": 13,
+     "km": 271.08,
+     "assigned": 83
+    },
+    {
+     "seconds": 38.32,
+     "engineers": 13,
+     "km": 270.1,
+     "assigned": 83
+    },
+    {
+     "seconds": 383.01,
+     "engineers": 13,
+     "km": 268.92,
+     "assigned": 83
+    },
+    {
+     "seconds": 383.04,
+     "engineers": 13,
+     "km": 268.36,
+     "assigned": 83
+    },
+    {
+     "seconds": 429.93,
+     "engineers": 12,
+     "km": 323.66,
+     "assigned": 83
+    },
+    {
+     "seconds": 429.97,
+     "engineers": 12,
+     "km": 324.15,
+     "assigned": 83
+    },
+    {
+     "seconds": 429.98,
+     "engineers": 12,
+     "km": 321.71,
+     "assigned": 83
+    },
+    {
+     "seconds": 430.01,
+     "engineers": 12,
+     "km": 316.82,
+     "assigned": 83
+    },
+    {
+     "seconds": 430.07,
+     "engineers": 12,
+     "km": 316.01,
+     "assigned": 83
+    },
+    {
+     "seconds": 430.08,
+     "engineers": 12,
+     "km": 325.41,
+     "assigned": 83
+    },
+    {
+     "seconds": 430.09,
+     "engineers": 12,
+     "km": 324.92,
+     "assigned": 83
+    },
+    {
+     "seconds": 430.1,
+     "engineers": 12,
+     "km": 323.95,
+     "assigned": 83
+    },
+    {
+     "seconds": 430.12,
+     "engineers": 12,
+     "km": 323.7,
+     "assigned": 83
+    },
+    {
+     "seconds": 430.12,
+     "engineers": 12,
+     "km": 321.46,
+     "assigned": 83
+    },
+    {
+     "seconds": 430.12,
+     "engineers": 12,
+     "km": 321.21,
+     "assigned": 83
+    },
+    {
+     "seconds": 430.19,
+     "engineers": 12,
+     "km": 320.45,
+     "assigned": 83
+    },
+    {
+     "seconds": 430.45,
+     "engineers": 12,
+     "km": 320.12,
+     "assigned": 83
+    },
+    {
+     "seconds": 430.47,
+     "engineers": 12,
+     "km": 319.43,
+     "assigned": 83
+    }
+   ]
+  },
+  "Югоцентр": {
+   "jobs": 56,
+   "fleet": 11,
+   "final": {
+    "engineers": 7,
+    "km": 190.68,
+    "assigned": 56
+   },
+   "steps": [
+    {
+     "seconds": 0.01,
+     "engineers": 11,
+     "km": 186.21,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.01,
+     "engineers": 11,
+     "km": 184.54,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.01,
+     "engineers": 11,
+     "km": 183.95,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 11,
+     "km": 179.73,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 11,
+     "km": 179.21,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 11,
+     "km": 178.79,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 11,
+     "km": 178.62,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 11,
+     "km": 177.38,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 11,
+     "km": 176.26,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.02,
+     "engineers": 11,
+     "km": 168.13,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 11,
+     "km": 166.56,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 11,
+     "km": 159.75,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 11,
+     "km": 156.58,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.03,
+     "engineers": 11,
+     "km": 156.41,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.04,
+     "engineers": 11,
+     "km": 155.48,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.04,
+     "engineers": 10,
+     "km": 157.98,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.05,
+     "engineers": 10,
+     "km": 155.36,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.05,
+     "engineers": 10,
+     "km": 154.58,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 10,
+     "km": 150.26,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 10,
+     "km": 148.42,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 10,
+     "km": 147.72,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 9,
+     "km": 164.02,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.08,
+     "engineers": 9,
+     "km": 159.41,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.09,
+     "engineers": 9,
+     "km": 157.07,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.09,
+     "engineers": 9,
+     "km": 156.91,
+     "assigned": 45
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 9,
+     "km": 181.97,
+     "assigned": 46
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 9,
+     "km": 193.76,
+     "assigned": 47
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 10,
+     "km": 199.95,
+     "assigned": 48
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 10,
+     "km": 201.58,
+     "assigned": 49
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 10,
+     "km": 203.06,
+     "assigned": 50
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 10,
+     "km": 207.54,
+     "assigned": 51
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 10,
+     "km": 216.9,
+     "assigned": 52
+    },
+    {
+     "seconds": 0.1,
+     "engineers": 10,
+     "km": 217.6,
+     "assigned": 53
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 10,
+     "km": 225.54,
+     "assigned": 54
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 10,
+     "km": 229.44,
+     "assigned": 55
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 10,
+     "km": 242.35,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 10,
+     "km": 239.8,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.11,
+     "engineers": 10,
+     "km": 237.99,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 10,
+     "km": 233.19,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 10,
+     "km": 231.12,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 10,
+     "km": 228.92,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 10,
+     "km": 227.28,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.12,
+     "engineers": 10,
+     "km": 224.83,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.13,
+     "engineers": 10,
+     "km": 224.13,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.13,
+     "engineers": 10,
+     "km": 221.8,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.13,
+     "engineers": 10,
+     "km": 219.4,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.13,
+     "engineers": 10,
+     "km": 218.76,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.14,
+     "engineers": 10,
+     "km": 215.24,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.14,
+     "engineers": 10,
+     "km": 213.07,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.14,
+     "engineers": 10,
+     "km": 206.79,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.15,
+     "engineers": 10,
+     "km": 201.51,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.15,
+     "engineers": 10,
+     "km": 200.68,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.17,
+     "engineers": 10,
+     "km": 191.88,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.17,
+     "engineers": 10,
+     "km": 188.9,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.18,
+     "engineers": 10,
+     "km": 184.89,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.18,
+     "engineers": 10,
+     "km": 184.14,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.18,
+     "engineers": 10,
+     "km": 184.0,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.18,
+     "engineers": 10,
+     "km": 183.31,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.19,
+     "engineers": 10,
+     "km": 182.75,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.19,
+     "engineers": 10,
+     "km": 181.67,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.2,
+     "engineers": 10,
+     "km": 178.18,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.2,
+     "engineers": 9,
+     "km": 181.42,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.21,
+     "engineers": 9,
+     "km": 179.01,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.22,
+     "engineers": 9,
+     "km": 178.73,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.23,
+     "engineers": 9,
+     "km": 174.63,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.23,
+     "engineers": 9,
+     "km": 173.64,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.23,
+     "engineers": 9,
+     "km": 172.28,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.25,
+     "engineers": 9,
+     "km": 172.14,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.26,
+     "engineers": 9,
+     "km": 171.77,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.28,
+     "engineers": 9,
+     "km": 171.5,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.29,
+     "engineers": 8,
+     "km": 186.65,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.31,
+     "engineers": 8,
+     "km": 185.3,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.35,
+     "engineers": 8,
+     "km": 183.73,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.63,
+     "engineers": 8,
+     "km": 181.36,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.64,
+     "engineers": 8,
+     "km": 179.99,
+     "assigned": 56
+    },
+    {
+     "seconds": 0.64,
+     "engineers": 8,
+     "km": 179.77,
+     "assigned": 56
+    },
+    {
+     "seconds": 4.74,
+     "engineers": 8,
+     "km": 179.38,
+     "assigned": 56
+    },
+    {
+     "seconds": 7.77,
+     "engineers": 7,
+     "km": 213.88,
+     "assigned": 56
+    },
+    {
+     "seconds": 7.83,
+     "engineers": 7,
+     "km": 213.31,
+     "assigned": 56
+    },
+    {
+     "seconds": 7.83,
+     "engineers": 7,
+     "km": 212.92,
+     "assigned": 56
+    },
+    {
+     "seconds": 7.83,
+     "engineers": 7,
+     "km": 212.62,
+     "assigned": 56
+    },
+    {
+     "seconds": 7.97,
+     "engineers": 7,
+     "km": 211.85,
+     "assigned": 56
+    },
+    {
+     "seconds": 8.28,
+     "engineers": 7,
+     "km": 211.19,
+     "assigned": 56
+    },
+    {
+     "seconds": 53.47,
+     "engineers": 7,
+     "km": 207.27,
+     "assigned": 56
+    },
+    {
+     "seconds": 53.51,
+     "engineers": 7,
+     "km": 206.11,
+     "assigned": 56
+    },
+    {
+     "seconds": 53.51,
+     "engineers": 7,
+     "km": 205.94,
+     "assigned": 56
+    },
+    {
+     "seconds": 53.51,
+     "engineers": 7,
+     "km": 205.52,
+     "assigned": 56
+    },
+    {
+     "seconds": 53.52,
+     "engineers": 7,
+     "km": 204.08,
+     "assigned": 56
+    },
+    {
+     "seconds": 53.52,
+     "engineers": 7,
+     "km": 200.91,
+     "assigned": 56
+    },
+    {
+     "seconds": 53.52,
+     "engineers": 7,
+     "km": 200.75,
+     "assigned": 56
+    },
+    {
+     "seconds": 104.52,
+     "engineers": 7,
+     "km": 200.2,
+     "assigned": 56
+    },
+    {
+     "seconds": 104.55,
+     "engineers": 7,
+     "km": 192.98,
+     "assigned": 56
+    },
+    {
+     "seconds": 245.57,
+     "engineers": 7,
+     "km": 192.42,
+     "assigned": 56
+    },
+    {
+     "seconds": 245.8,
+     "engineers": 7,
+     "km": 191.19,
+     "assigned": 56
+    },
+    {
+     "seconds": 245.82,
+     "engineers": 7,
+     "km": 190.69,
+     "assigned": 56
+    }
+   ]
+  }
+ },
+ "table": [
+  {
+   "seconds": 1,
+   "mark": "",
+   "regions": {
+    "Восток": {
+     "engineers": 9,
+     "km": 204.86,
+     "assigned": 66
+    },
+    "Юго-восток": {
+     "engineers": 13,
+     "km": 322.13,
+     "assigned": 83
+    },
+    "Югоцентр": {
+     "engineers": 8,
+     "km": 179.77,
+     "assigned": 56
+    }
+   },
+   "total": {
+    "engineers": 30,
+    "km": 706.8,
+    "assigned": 205
+   }
+  },
+  {
+   "seconds": 2,
+   "mark": "",
+   "regions": {
+    "Восток": {
+     "engineers": 9,
+     "km": 204.18,
+     "assigned": 66
+    },
+    "Юго-восток": {
+     "engineers": 13,
+     "km": 291.37,
+     "assigned": 83
+    },
+    "Югоцентр": {
+     "engineers": 8,
+     "km": 179.77,
+     "assigned": 56
+    }
+   },
+   "total": {
+    "engineers": 30,
+    "km": 675.3,
+    "assigned": 205
+   }
+  },
+  {
+   "seconds": 5,
+   "mark": "",
+   "regions": {
+    "Восток": {
+     "engineers": 9,
+     "km": 194.59,
+     "assigned": 66
+    },
+    "Юго-восток": {
+     "engineers": 13,
+     "km": 277.04,
+     "assigned": 83
+    },
+    "Югоцентр": {
+     "engineers": 8,
+     "km": 179.38,
+     "assigned": 56
+    }
+   },
+   "total": {
+    "engineers": 30,
+    "km": 651.0,
+    "assigned": 205
+   }
+  },
+  {
+   "seconds": 10,
+   "mark": "событие дня",
+   "regions": {
+    "Восток": {
+     "engineers": 9,
+     "km": 194.59,
+     "assigned": 66
+    },
+    "Юго-восток": {
+     "engineers": 13,
+     "km": 277.04,
+     "assigned": 83
+    },
+    "Югоцентр": {
+     "engineers": 7,
+     "km": 211.19,
+     "assigned": 56
+    }
+   },
+   "total": {
+    "engineers": 29,
+    "km": 682.8,
+    "assigned": 205
+   }
+  },
+  {
+   "seconds": 20,
+   "mark": "кнопка «Пересчитать»",
+   "regions": {
+    "Восток": {
+     "engineers": 9,
+     "km": 194.59,
+     "assigned": 66
+    },
+    "Юго-восток": {
+     "engineers": 13,
+     "km": 277.04,
+     "assigned": 83
+    },
+    "Югоцентр": {
+     "engineers": 7,
+     "km": 211.19,
+     "assigned": 56
+    }
+   },
+   "total": {
+    "engineers": 29,
+    "km": 682.8,
+    "assigned": 205
+   }
+  },
+  {
+   "seconds": 30,
+   "mark": "",
+   "regions": {
+    "Восток": {
+     "engineers": 9,
+     "km": 194.59,
+     "assigned": 66
+    },
+    "Юго-восток": {
+     "engineers": 13,
+     "km": 277.04,
+     "assigned": 83
+    },
+    "Югоцентр": {
+     "engineers": 7,
+     "km": 211.19,
+     "assigned": 56
+    }
+   },
+   "total": {
+    "engineers": 29,
+    "km": 682.8,
+    "assigned": 205
+   }
+  },
+  {
+   "seconds": 60,
+   "mark": "",
+   "regions": {
+    "Восток": {
+     "engineers": 8,
+     "km": 209.95,
+     "assigned": 66
+    },
+    "Юго-восток": {
+     "engineers": 13,
+     "km": 270.1,
+     "assigned": 83
+    },
+    "Югоцентр": {
+     "engineers": 7,
+     "km": 200.75,
+     "assigned": 56
+    }
+   },
+   "total": {
+    "engineers": 28,
+    "km": 680.8,
+    "assigned": 205
+   }
+  },
+  {
+   "seconds": 120,
+   "mark": "",
+   "regions": {
+    "Восток": {
+     "engineers": 8,
+     "km": 209.95,
+     "assigned": 66
+    },
+    "Юго-восток": {
+     "engineers": 13,
+     "km": 270.1,
+     "assigned": 83
+    },
+    "Югоцентр": {
+     "engineers": 7,
+     "km": 192.98,
+     "assigned": 56
+    }
+   },
+   "total": {
+    "engineers": 28,
+    "km": 673.0,
+    "assigned": 205
+   }
+  },
+  {
+   "seconds": 300,
+   "mark": "",
+   "regions": {
+    "Восток": {
+     "engineers": 8,
+     "km": 209.95,
+     "assigned": 66
+    },
+    "Юго-восток": {
+     "engineers": 13,
+     "km": 270.1,
+     "assigned": 83
+    },
+    "Югоцентр": {
+     "engineers": 7,
+     "km": 190.69,
+     "assigned": 56
+    }
+   },
+   "total": {
+    "engineers": 28,
+    "km": 670.7,
+    "assigned": 205
+   }
+  },
+  {
+   "seconds": 600,
+   "mark": "план, посчитанный заранее",
+   "regions": {
+    "Восток": {
+     "engineers": 8,
+     "km": 205.27,
+     "assigned": 66
+    },
+    "Юго-восток": {
+     "engineers": 12,
+     "km": 319.43,
+     "assigned": 83
+    },
+    "Югоцентр": {
+     "engineers": 7,
+     "km": 190.69,
+     "assigned": 56
+    }
+   },
+   "total": {
+    "engineers": 27,
+    "km": 715.4,
+    "assigned": 205
+   }
+  }
+ ]
+}

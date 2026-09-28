@@ -1,0 +1,46 @@
+# Стенд: Caddy получает сертификат Let's Encrypt и проксирует на Улей.
+#
+#   HIVE_DOMAIN=hive.example.com docker compose up -d --build
+#
+# Нужно заранее: A-запись домена на IP сервера, свободные порты 80 и 443.
+# Наружу открыт только Caddy. Улей слушает 8000 лишь внутри сети compose:
+# опубликованный порт Docker открывает мимо ufw, поэтому `ports` у него нет.
+services:
+  hive:
+    build: .
+    restart: unless-stopped
+    expose:
+      - "8000"
+    # Файловая система только для чтения: писать можно лишь дампы планов и
+    # временные файлы, и оба места ограничены по размеру.
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m
+      - /app/runs:uid=10001,gid=10001,size=64m
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    # Решатель берёт одно ядро; предел не даёт стенду мешать соседним
+    # сервисам на той же машине. Сервис занимает около 100 МБ.
+    cpus: 1.0
+    mem_limit: 1g
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on:
+      - hive
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      HIVE_DOMAIN: ${HIVE_DOMAIN:?укажите домен стенда, например HIVE_DOMAIN=hive.example.com}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:
