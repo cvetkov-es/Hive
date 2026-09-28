@@ -6,7 +6,7 @@
 
 ![Экран диспетчера: маршруты на карте, сводка смены, лента смены в цветах бригад](artifacts/shots/readme-board.png)
 
-**Стенд:** ЗАПОЛНИТЬ: ссылка · **Видео:** ЗАПОЛНИТЬ: ссылка · **Презентация (PDF):** ЗАПОЛНИТЬ: ссылка
+**Стенд:** https://46.30.46.40 — логин `lct`, пароль `lct2026` · **Презентация:** [Google Slides](https://docs.google.com/presentation/d/1DZjdumHbSkM-GGStyJNjYPayo2SrW0t-/edit?usp=sharing&rtpof=true&sd=true)
 
 Всё описание — в этом файле: [устройство и стек](#как-это-устроено) · [функции для бизнеса](#что-система-делает-для-бизнеса) · [алгоритм](#алгоритм-шаг-за-шагом) ·
 [результаты](#результаты) · [запуск](#запуск) · [данные](#данные-поля-и-единицы-измерения) · [допущения](#принятые-допущения) · [ограничения](#известные-ограничения-и-сознательные-упрощения).
@@ -498,18 +498,48 @@ Docker, ufw не закрывает, поэтому у сервиса `hive` в 
 
 ### Без Docker
 
-`run.py` слушает только 127.0.0.1, наружу его отдаёт nginx:
+Так развёрнут стенд жюри: сервис слушает только 127.0.0.1, наружу его отдаёт
+nginx с простым паролем — от роботов, а не от людей, поэтому пароль и
+написан в начале README.
 
 ```bash
 sudo apt install -y python3-venv nginx
-git clone https://github.com/cvetkov-es/Hive.git && cd Hive
-NO_BROWSER=1 nohup python3 run.py 8000 > hive.log 2>&1 &
+sudo git clone https://github.com/cvetkov-es/Hive.git /opt/Hive && sudo chown -R $USER /opt/Hive
+cd /opt/Hive && NO_BROWSER=1 python3 run.py 8000   # окружение и зависимости; после «Готово» — Ctrl+C
 ```
+
+Сервис — через systemd, чтобы поднимался сам после сбоя и перезагрузки,
+`/etc/systemd/system/hive.service` (`User` — тот, кто клонировал):
+
+```ini
+[Unit]
+Description=Hive
+After=network-online.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/opt/Hive/backend
+ExecStart=/opt/Hive/.venv/bin/python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```bash
+sudo systemctl enable --now hive
+printf 'lct:%s\n' "$(openssl passwd -apr1 lct2026)" | sudo tee /etc/nginx/.htpasswd
+```
+
+`/etc/nginx/sites-available/hive`, затем
+`sudo ln -s /etc/nginx/sites-available/hive /etc/nginx/sites-enabled/ && sudo rm /etc/nginx/sites-enabled/default && sudo nginx -t && sudo systemctl reload nginx`:
 
 ```nginx
 server {
-    listen 80;
+    listen 80 default_server;
     client_max_body_size 1m;
+    auth_basic "Hive";
+    auth_basic_user_file /etc/nginx/.htpasswd;
     location / {
         proxy_pass http://127.0.0.1:8000;
         proxy_read_timeout 120s;    # живой пересчёт идёт до минуты
@@ -784,5 +814,6 @@ tests/      тесты
 ## Команда и материалы
 
 - **Команда:** Евгений Цветков (капитан, разработчик), Екатерина Цветкова (дизайнер).
-- **Видео демонстрации:** ЗАПОЛНИТЬ: ссылка.
+- **Стенд:** https://46.30.46.40 — логин `lct`, пароль `lct2026`.
+- **Презентация:** [Google Slides](https://docs.google.com/presentation/d/1DZjdumHbSkM-GGStyJNjYPayo2SrW0t-/edit?usp=sharing&rtpof=true&sd=true).
 - **Репозиторий:** https://github.com/cvetkov-es/Hive
