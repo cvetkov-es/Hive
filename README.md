@@ -114,7 +114,7 @@ flowchart LR
 | Дороги | OSRM | матрицы и форма маршрутов по дорогам: на встрече 16.09 про пробег ответили «По дорогам» |
 | Адреса | Nominatim | координаты выгрузки — один раз заранее; новый адрес события — в работе |
 | Проверка | pytest, httpx | тесты гоняют решатель по-настоящему |
-| Стенд | Docker, Caddy | один контейнер с сервисом, Caddy выпускает сертификат |
+| Стенд | nginx, systemd | стенд жюри: сервис на 127.0.0.1, nginx отдаёт его по HTTPS; вариант с Docker и Caddy — там же, в «Как развернуть стенд» |
 
 **Почему OR-Tools, а не свой алгоритм.** Задача — классическая маршрутизация с
 временными окнами, и у OR-Tools для неё есть всё: жёсткие окна, ёмкость,
@@ -529,12 +529,26 @@ WantedBy=multi-user.target
 sudo systemctl enable --now hive
 ```
 
+Сертификат — Let's Encrypt. С доменом его выпустит и будет продлевать certbot;
+порт 80 нужен открытым для проверки, но nginx его не слушает:
+
+```bash
+sudo apt install -y certbot
+sudo certbot certonly --standalone -d <домен> --deploy-hook "systemctl reload nginx"
+```
+
+У стенда жюри домена нет, и сертификат выписан на IP-адрес. Такие Let's Encrypt
+выдаёт на 6 дней; выпускает и продлевает их acme.sh по cron, после продления nginx
+перезагружается, пути в `ssl_certificate` там свои.
+
 `/etc/nginx/sites-available/hive`, затем
 `sudo ln -s /etc/nginx/sites-available/hive /etc/nginx/sites-enabled/ && sudo rm /etc/nginx/sites-enabled/default && sudo nginx -t && sudo systemctl reload nginx`:
 
 ```nginx
 server {
-    listen 80 default_server;
+    listen 443 ssl default_server;
+    ssl_certificate     /etc/letsencrypt/live/<домен>/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/<домен>/privkey.pem;
     client_max_body_size 1m;
     location / {
         proxy_pass http://127.0.0.1:8000;
@@ -654,7 +668,7 @@ _Тип — по полю «Тип заявки BK». «Глобальная п�
 |---|---|---|
 | Время суток | ЧЧ:ММ, московское | внутри модели — минуты от полуночи |
 | Длительность работы, дорога, ожидание, опоздание | минуты | целые |
-| Пробег на экране и в выгрузке | километры | одна десятая |
+| Пробег | километры | на карте и в ленте — одна десятая; в объяснении — сотые; в выгрузке — сотые у бригады, тысячные у переезда |
 | Расстояния в дорожной матрице | метры | целые, из OSRM |
 | Время в матрице | секунды свободного потока | делится на 0.75 для автомобиля |
 | Координаты | градусы, WGS 84 | шесть знаков после запятой |
